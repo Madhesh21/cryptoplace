@@ -12,16 +12,6 @@
   cursor: pointer;
 }
 
-.navbar ul {
-  display: flex;
-  gap: 40px;
-  list-style: none;
-}
-
-.navbar li {
-  cursor: pointer;
-}
-
 .nav-right {
   display: flex;
   align-items: center;
@@ -42,12 +32,11 @@
 }
 
 .navbar button {
-  display: flex;
-  align-items: center;
+  margin-right: 110px;
   color: #66fcf1;
   background: transparent;
   padding: 10px 25px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 1px solid #66fcf1;
   font-size: 15px;
   font-weight: 500;

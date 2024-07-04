@@ -35,12 +35,13 @@ const Home = () => {
     <div className="home">
       <div className="hero">
         <h1>
+          The World's
           Largest <br />
           Crypto Marketplace
         </h1>
         <p>
-          Welcome to the world's largest cryptocurrency marketplace. Sign up to
-          explore more about cryptos.
+          Search your desired cryptocurrency and
+          explore more about it.
         </p>
         <form onSubmit={searchHandler}>
           <input
